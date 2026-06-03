@@ -1,89 +1,177 @@
 rakhine,english
-ငါ / အကျွန်,I
-မင်း / နင်,you (singular informal)
-မင်း / နင်,you (formal)
-ယင်းသူ,he
-ယင်းကလိမ့်မေ,she
-ယင်းသူရို့,they
-ငါရို့ / အကျွန်ရို့,we
-မင်းရို့ / နင်ရို့,you (plural informal)
-မင်းရို့,you (plural formal)
-ကိုယ်,oneself / I (reflexive)
-ယင်းသူ,that person
-ဒေသူ,this person
-လူ,person
-မမက်,woman
-ယောက်ျား,man
-အချေ,child
-အဖ,father
-အမိ,mother
-အစ်ကို,older brother
-ညီချေ,younger brother
-အေးမ,older sister
-နှမချေ,younger sister
-အဘိုး,grandfather
-အဘောင်,grandmother
-မိတ်ဆွေ,friend
-ဆရာ,teacher
-ဆရာမ,teacher (female)
-ကျောင်းသား,student (male)
-ကျောင်းသူ,student (female)
-သူငယ်ချင်း,friend
-လူကြီး,elder
-လူငယ်,youth
-အလုပ်သမား,worker
-သူဌေး,boss
-နိုင်ငံသား,citizen
-မင်း,king / you (informal archaic)
-မိဖုရား,queen
-ဘုရားသခင်,God
-အဖွဲ့ဝင်,member
-ခေါင်းဆောင်,leader
-စစ်သား,soldier
-ရဲ,police officer
-ဆရာဝန်,doctor
-သူနာပြု,nurse
-အင်ဂျင်နီယာ,engineer
-ကျောင်းအုပ်,principal
-တရားသူကြီး,judge
-အကြီးအကဲ,chief
-အိမ်ရှင်,host
-ဧည့်သည်,guest
-လူတစ်ယောက်,a person
-တစ်ဦး,one person
-တစ်ယောက်,one person
-တစ်ယောက်တည်း,alone person
-မည်သူ,who
-ဘာသူ,who (informal)
-ငါ့,my / mine
-နင့်,your (informal)
-သူ့,his / her / its
-ငါတို့ရဲ့,our
-သင်တို့ရဲ့,your (plural)
-သူတို့ရဲ့,their
-မိမိ,one's own
-ကိုယ့်,one's own (informal)
-မိမိကိုယ်တိုင်,oneself
-ကိုယ်တိုင်,oneself
-လူတစ်ဦးတစ်ယောက်,an individual
-တစ်ဦးချင်း,individual
-လူမျိုး,ethnic group / people
-မိသားစု,family
-အဖွဲ့,group
-အဖွဲ့အစည်း,organization
-အသင်း,team
-လူစု,crowd
-ပြည်သူ,public / people
-ပြည်သူလူထု,public population
-လူသား,human
-လူသားမျိုးနွယ်,humanity
-လူ့အဖွဲ့အစည်း,society
-လူတန်းစား,class (social)
-ဆွေမျိုး,relative
-ဆွေမျိုးသားချင်း,relatives
-မိတ်ဖက်,partner
-လုပ်ဖော်ကိုင်ဖက်,colleague
-အိမ်သား,household member
-မိဘ,parents
-သား,son
-သမီး,daughter
+"ငါ / အကျွန်","I"
+"နင် / မင်း / အဆွေ","you (singular informal)"
+"နင် / မင်း / အဆွေ","you (formal)"
+"ယင်းသူ / ယင်းကလေ","he"
+"ယင်းသူ / ယင်းကလိမ့်မေ","she"
+"သူရို့","they"
+"ငါရို့","we"
+"နင်ရို့ / မင်းရို့ / အဆွေရို့","you (plural informal)"
+"နင်ရို့ / မင်းရို့ / အဆွေရို့","you (plural formal)"
+"ကိုယ်","oneself / I (reflexive)"
+"ယင်းလူ","that person"
+"ဒေလူ","this person"
+"လူ","person"
+"မမက်","woman"
+"ယောက်ျား","man"
+"အချေ","child"
+"အဖ","father"
+"အမိ","mother"
+"အစ်ကို","older brother"
+"ညီချေ","younger brother"
+"အေးမ","older sister"
+"နှမချေ","younger sister"
+"အဘိုး","grandfather"
+"အဘောင်","grandmother"
+"မိတ်ဆွေ / သူငယ်ချင်း","friend"
+"ဆရာ","teacher"
+"ဆရာမ","teacher (female)"
+"ကျောင်းသား","student (male)"
+"ကျောင်းသူ","student (female)"
+"လူကြီး","elder"
+"လူငယ်","youth"
+"အလုပ်သမား","worker"
+"သူဌေး","boss"
+"နိုင်ငံသား","citizen"
+"ရှင်ဘုရင် / မင်း","king / you (informal archaic)"
+"မိဖုရား","queen"
+"ဘုရားသခင်","God"
+"အဖွဲ့ဝင်","member"
+"ခေါင်းဆောင်","leader"
+"စစ်သား","soldier"
+"ရဲ အရာရှိ","police officer"
+"ဆရာဝန်","doctor"
+"သူနာပြု","nurse"
+"အင်ဂျင်နီယာ","engineer"
+"ကျောင်းအုပ်","principal"
+"တရားသူကြီး","judge"
+"အကြီးအကဲ","chief"
+"အိမ်ရှင်","host"
+"အာဂန္တု / ဧည့်သည်","guest"
+"လူ တစ်ယောက်","a person"
+"လူ တစ်ယောက်","one person"
+"တစ်ယောက်တည်း","alone person"
+"ဇာသူ","who"
+"ဇာသူ","who (informal)"
+"ငါ့","my / mine"
+"နင့် / မင်း / အဆွေ့ ","your (informal)"
+"ယင်းသူ့","his / her / its"
+"ငါရို့","our"
+"မင်းရို့ / နင်ရို့ / အဆွေရို့","your (plural)"
+"ယင်းသူရို့","their"
+"မိမိ","one's own"
+"ကိုယ့်","one's own (informal)"
+"မိမိကိုယ်တိုင်","oneself"
+"ကိုယ်တိုင်","oneself"
+"လူတစ်ဦးတစ်ယောက်","an individual"
+"တစ်ယောက်ချင်း","individual"
+"လူမျိုး","ethnic group / people"
+"မိသားစု","family"
+"အဖွဲ့","group"
+"အဖွဲ့အစည်း","organization"
+"အသင်း","team"
+"လူစု","crowd"
+"ပြည်သူ","public / people"
+"ပြည်သူလူထု","public population"
+"လူသား","human"
+"လူသားမျိုးနွယ်","humanity"
+"လူ့အဖွဲ့အစည်း","society"
+"လူတန်းစား","class (social)"
+"ဆွေမျိုး","relative"
+"ဆွေမျိုးသားချင်း","relatives"
+"မိတ်ဖက်","partner"
+"လုပ်ဖော်ကိုင်ဖက်","colleague"
+"အိမ်သား","household member"
+"မိဘ","parents"
+"သား","son"
+"သမီး","daughter"
+"အကျွန်","I (male polite)"
+"အကျွန်","I (female polite)"
+"အကျွန်ရို့","we (male group polite)"
+"အကျွန်ရို့","we (female group polite)"
+"မင်း / နင် / အဆွေ","you (informal)"
+"မင်း","you (formal male)"
+"နင်","you (formal female)"
+"ယင်းသူက","that person (he/she)"
+"ယင်းကလိမ့်မေက","she (emphasized)"
+"ယင်းသူရို့က","they (emphasized)"
+"အကျွန်က / ငါက","I (emphasized)"
+"နင်က / မင်းက / အဆွေက","you (emphasized)"
+"နင်က / မင်းက / အဆွေက","you (formal emphasized)"
+"ကိုယ်က","oneself (emphasized)"
+"လူတစ်ယောက်က","a person (emphasized)"
+"ဒေကလူ","this person here"
+"ထိုကလူ","that person over there"
+"ကလေချေတစ်ယောက်","a young person"
+"လူကြီးတစ်ယောက်","an elder"
+"မမက်ချေ","girl"
+"ယောက်ျားချေ","boy"
+"အဖိုး","grandfather (alternate)"
+"အဘောင်","grandmother (alternate)"
+"အရီး","aunt"
+"အခင်","uncle"
+"တူ","nephew"
+"တူမ","niece"
+"သားကြီး","elder son"
+"သမီးကြီး","elder daughter"
+"သားချေ","younger son"
+"သမီးချေ","younger daughter"
+"မိသားစုဝင်","family member"
+"ဆွေမျိုး","relative (formal)"
+"အိမ်သူအိမ်သား","household members"
+"အဖ","father (respectful)"
+"အမိ","mother (respectful)"
+"ဆရာကြီး","senior teacher"
+"ဆရာမကြီး","senior female teacher"
+"ကျောင်းသား တစ်ယောက်","a student (male)"
+"ကျောင်းသူ တစ်ယောက်","a student (female)"
+"သူငယ်ချင်း တစ်ယောက်","a friend"
+"လုပ်ဖော်ကိုင်ဖက် တစ်ယောက်","a colleague"
+"မိတ်ဆွေ တစ်ယောက်","a friend (formal)"
+"အဖွဲ့ဝင် တစ်ယောက်","a member"
+"ခေါင်းဆောင် တစ်ယောက်","a leader"
+"အကြီးအကဲ တစ်ယောက်","a chief"
+"အရာရှိ","officer"
+"ဝန်ထမ်း","employee"
+"စစ်သား တစ်ယောက်","a soldier"
+"ရဲ အရာရှိ တစ်ယောက်","a police officer"
+"ဆရာဝန် တစ်ယောက်","a doctor"
+"သူနာပြု တစ်ယောက်","a nurse"
+"အိန်ဂျင်နီယာ တစ်ယောက်","an engineer"
+"ကျောင်းအုပ် တစ်ယောက်","a principal"
+"တရားသူကြီး တစ်ယောက်","a judge"
+"အိမ်ရှင် တစ်ယောက်","a host"
+"အဂန္တု တစ်ယောက်","a guest"
+"လူထု","people / public"
+"ပြည်သူ တစ်ယောက်","a citizen"
+"နိုင်ငံသား တစ်ယောက်","a citizen"
+"ပြည်သူ တစ်စု","a group of people"
+"လူအုပ်","crowd"
+"လူအဖွဲ့","group of people"
+"လူသား တစ်ယောက်","a human"
+"လူသားတိ","humans"
+"လူသားမျိုးနွယ်စု","human race"
+"လူ့အဖွဲ့အစည်းတစ်ခု","a society"
+"အသင်းဝင်","team member"
+"အသင်းခေါင်းဆောင်","team leader"
+"မိတ်ဖက်တစ်ယောက်","a partner"
+"မိမိကိုယ်","self"
+"ကိုယ့်ကိုယ်ကို","oneself (informal)"
+"ယင်းသူကိုယ်တိုင်","himself / herself"
+"ယင်းသူရို့ကိုယ်တိုင်","themselves"
+"ငါကိုယ်တိုင်","myself"
+"နင်ကိုယ်တိုင် / မင်းကိုယ်တိုင် / အဆွေကိုယ်တိုင်","yourself"
+"နင်ကိုယ်တိုင် / မင်းကိုယ်တိုင် / အဆွေကိုယ်တိုင်","yourself (formal)"
+"လူတစ်ယောက်","an individual"
+"တစ်ယောက်ချင်းစီ","each individual"
+"လူမျိုးစု","ethnic group"
+"မိသားစု တစ်စု","a family"
+"အဖွဲ့ တစ်ဖွဲ့","a group"
+"အဖွဲ့အစည်း တစ်ခု","an organization"
+"အသင်း တစ်သင်း","a team"
+"လူတန်းစား တစ်ခု","a social class"
+"ဆွေမျိုး တစ်ယောက်","a relative"
+"မိတ်ဆွေ တစ်ယောက်","a friend"
+"အိမ်သား တစ်ယောက်","a household member"
+"လူအမျိုးမျိုး","various people"
+"လူတိုင်း","everyone"
