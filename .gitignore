@@ -1,6 +1,8 @@
-data/train.csv
-data/dev.csv
-data/test.csv
-README.md
-LICENSE
-scripts/
+__pycache__/
+*.pyc
+.DS_Store
+
+venv/
+.venv/
+
+data/tmp/
