@@ -1,38 +1,39 @@
 # 🌐 Rakhine–English Parallel Corpus
 
-A parallel corpus for **Rakhine ↔ English machine translation** and Natural Language Processing (NLP) research.
+A parallel corpus for **Rakhine ↔ English machine translation**, low-resource language research, and Natural Language Processing (NLP).
 
 ---
 
 ## 🎯 Purpose
 
-This dataset is designed for:
+This dataset is designed to support:
 
-- Machine Translation (Rakhine ↔ English)
-- Language Modeling
-- NLP research on low-resource languages
-- Dialect and linguistic analysis
-- Language preservation and documentation
+* Machine Translation (MT)
+* Neural Machine Translation (NMT)
+* Language Modeling
+* Low-resource NLP research
+* Linguistic and dialect studies
+* Language preservation and documentation
 
 ---
 
 ## 📌 Overview
 
-Rakhine is a major regional variety of Burmese spoken in Rakhine State, Myanmar. Despite its linguistic significance, publicly available digital resources for Rakhine remain extremely limited.
+Rakhine is spoken by millions of people in Rakhine State, Myanmar and in diaspora communities. Despite its cultural and linguistic importance, publicly available digital resources remain limited.
 
-This project aims to address that gap by building an open, structured parallel corpus to support research and language technology development.
+The goal of this project is to build an open, high-quality parallel corpus that supports:
 
-The dataset is intended to support:
-
-- 📚 Parallel sentence alignment (Rakhine–English)
-- 🧠 Training data for neural machine translation (NMT)
-- 🌍 Open NLP resources for low-resource language research
-- 🔊 Future expansion into speech + multimodal datasets
+* 📚 Parallel sentence alignment (Rakhine ↔ English)
+* 🧠 AI and machine translation research
+* 🌍 Open-source language technology
+* 🔊 Future speech and multimodal datasets
+* 📝 Language preservation and documentation
 
 ---
 
-## 📁 Dataset Structure
+## 📁 Repository Structure
 
+```text
 rakhine-english-parallel-corpus/
 │
 ├── data/
@@ -51,22 +52,37 @@ rakhine-english-parallel-corpus/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
 ---
 
-## 📊 Data Format
-
-### Parallel Sentence Format (CSV)
-
-| rakhine | english |
-|--------|--------|
-| ငါ စားပြီးဗျာယ် | I have eaten. |
-| နင် ဇာမှာလဲ | Where are you? |
+## 📊 Dataset Format
 
 ### CSV Schema
 
-rakhine: string (source language sentence)
-english: string (target language sentence)
+| Column  | Type   | Description                       |
+| ------- | ------ | --------------------------------- |
+| rakhine | string | Source sentence in Rakhine        |
+| english | string | Corresponding English translation |
+
+### Example
+
+| rakhine         | english        |
+| --------------- | -------------- |
+| ငါ စားပြီးဗျာယ် | I have eaten.  |
+| နင် ဇာမှာလဲ     | Where are you? |
+
+---
+
+## 📈 Dataset Statistics
+
+| Metric           | Value     |
+| ---------------- | --------- |
+| Sentence Pairs   | TBD       |
+| Training Split   | TBD       |
+| Validation Split | TBD       |
+| Test Split       | TBD       |
+| License          | CC BY 4.0 |
 
 ---
 
@@ -74,87 +90,131 @@ english: string (target language sentence)
 
 ### 1. Prepare Raw Data
 
-Place monolingual text files in `raw_data/`:
+Place source files in:
 
-- rakhine_text.txt
-- english_text.txt
+```text
+raw_data/
+├── rakhine_text.txt
+└── english_text.txt
+```
 
-Each line should ideally represent one sentence.
+Each line should contain one sentence.
 
----
+### 2. Clean Data
 
-### 2. Sentence Alignment
+```bash
+python scripts/clean_data.py
+```
+
+This removes:
+
+* Empty rows
+* Duplicate entries
+* Invalid sentence pairs
+* Formatting inconsistencies
+
+### 3. Align Sentences
 
 ```bash
 python scripts/align_sentences.py
 ```
 
-This generates initial parallel sentence pairs using rule-based alignment.
+The alignment pipeline supports sentence-level matching between Rakhine and English texts. Future versions may include semantic alignment using multilingual sentence embeddings.
 
----
+### 4. Generate Dataset Splits
 
-### 3. Output Dataset
+Output files:
 
+```text
 data/
 ├── train.csv
 ├── dev.csv
 └── test.csv
+```
 
 ---
 
 ## 🧠 Use Cases
 
-- Neural Machine Translation (NMT)
-- Chatbot systems
-- Low-resource language research
-- Linguistic and dialect studies
-- Language preservation
-- NLP benchmarking
+* Neural Machine Translation (NMT)
+* Large Language Model (LLM) training
+* Chatbots and conversational AI
+* Low-resource language research
+* Linguistic analysis
+* Language preservation
+* NLP benchmarking
 
 ---
 
-## 🚀 Planned Improvements
+## 🚀 Roadmap
 
-- Expand to 10,000+ sentence pairs
-- Improve alignment using semantic models
-- Add human verification
-- Publish on Hugging Face Hub
-- Add evaluation benchmarks
-- Extend to speech datasets
+* Expand beyond 10,000 sentence pairs
+* Improve semantic alignment quality
+* Human verification and quality scoring
+* Publish on Hugging Face Datasets
+* Release benchmark evaluation sets
+* Add speech and transcription datasets
 
 ---
 
 ## ⚠️ Limitations
 
-- Rule-based initial alignment (line-by-line)
-- Requires human review for quality
-- Limited coverage at early stage
+* Some sentence pairs may require manual verification.
+* Coverage may not represent all domains or dialect variations.
+* Alignment quality depends on source data quality.
+* The dataset is actively being expanded and improved.
 
 ---
 
 ## 📜 License
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+This dataset is released under the:
+
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+
+You are free to share and adapt the material provided appropriate attribution is given.
 
 ---
 
-## 🤝 Contributions
+## 📖 Citation
 
-- Add sentence pairs
-- Improve translations
-- Fix alignment issues
-- Expand dialect coverage
-- Improve preprocessing scripts
-- Report dataset issues
+If you use this dataset in research, please cite:
+
+```bibtex
+@dataset{rakhine_english_parallel_corpus,
+  title={Rakhine–English Parallel Corpus},
+  author={Community Contributors},
+  year={2026},
+  url={https://github.com/<username>/rakhine-english-parallel-corpus}
+}
+```
 
 ---
 
-## 🌍 Goal
+## 🤝 Contributing
 
-To support the preservation and technological development of the Rakhine language through open NLP resources.
+Contributions are welcome.
+
+You can help by:
+
+* Adding new sentence pairs
+* Improving translations
+* Correcting alignment errors
+* Expanding vocabulary coverage
+* Improving preprocessing scripts
+* Reporting issues
+
+Please open an issue or submit a pull request.
+
+---
+
+## 🌍 Project Goal
+
+To support the preservation, accessibility, and technological development of the Rakhine language through open and reproducible NLP resources.
 
 ---
 
 ## 📬 Contact
 
-Open to collaboration with researchers, linguists, and developers in low-resource NLP.
+Researchers, developers, linguists, educators, and community contributors interested in Rakhine language technology are welcome to collaborate.
+
